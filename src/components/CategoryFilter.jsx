@@ -3,8 +3,6 @@ const categories = [
   "Packaging Machines",
   "Filling Machines",
   "Dough & Bakery Machines",
-  "Roti & Chapati Machines",
-  "Wafer & Chips Machines",
   "Juice Machines",
   "Commercial Kitchen Equipment",
   "Food Processing Machines",
@@ -12,7 +10,6 @@ const categories = [
   "Dry Fruit Processing Machines",
   "Oil Processing Machines",
   "Pulverisers",
-  "Feed Pellet Machines",
   "Snack Making Machines",
   "Customized Machines",
 ];

@@ -1426,7 +1426,7 @@ models: [
   sku: "SA-045",
   name: "Electric Kadai (Table Top)",
   slug: "electric-kadai-table-top",
-  category: "Hotel Catering Equipment",
+  category: "Commercial Kitchen Equipment",
   subCategory: "Electric Kadai",
   featured: false,
   image: "/images/products/electric-kadai-table-top.jpg",
@@ -1461,7 +1461,7 @@ models: [
   sku: "SA-046",
   name: "Electric Kadai with Stand",
   slug: "electric-kadai-with-stand",
-  category: "Hotel Catering Equipment",
+  category: "Commercial Kitchen Equipment",
   subCategory: "Electric Kadai",
   featured: false,
   image: "/images/products/electric-kadai-with-stand.jpg",
@@ -1496,7 +1496,7 @@ models: [
   sku: "SA-047",
   name: "Namkeen Ma sal a Mixer (Ribbon Blender)",
   slug: "namkeen-ma-sal-a-mixer-ribbon-blender",
-  category: "Farsan Namkeen Machinery",
+  category: "Snack Making Machines",
   subCategory: "Ribbon Blender",
   featured: false,
   image: "/images/products/namkeen-ma-sal-a-mixer-ribbon-blender.jpg",
@@ -1528,7 +1528,7 @@ models: [
   sku: "SA-048",
   name: "Coating Pan/Flavoring Pan Machine",
   slug: "coating-pan-flavoring-pan-machine",
-  category: "Farsan Namkeen Machinery",
+  category: "Snack Making Machines",
   subCategory: "Coating Pan",
   featured: false,
   image: "/images/products/coating-pan-flavoring-pan-machine.jpg",
@@ -1552,6 +1552,304 @@ models: [
     { model: "Running", capacity: "10-15 Kg.", hp: "0.5", rpm: "1440", voltage: "", weight: "88", dimensions: "42 x 19 x 38", production: "Drum size 18' x 18' " },
     { model: "Tilting", capacity: "10-15 Kg.", hp: "0.5", rpm: "1440", voltage: "", weight: "66", dimensions: "41 x 23 x 46", production: "Drum size 18' x 18' " },
     { model: "Running", capacity: "30-40 Kg.", hp: "1", rpm: "1440", voltage: "", weight: "162", dimensions: "68 x 37 x 51", production: "Drum size 32' x 32' " }
+  ]
+},
+{
+  id: 49,
+  sku: "SA-049",
+  name: "Banana Wafer Machine",
+  slug: "banana-wafer-machine",
+  category: "Snack Making Machines",
+  subCategory: "Wafer Machine",
+  featured: false,
+  image: "/images/products/banana-wafer-machine.jpg",
+  gallery: [],
+  shortDescription: "Banana wafer machine.",
+  description: "It is used to cutting banana wafers, its cutting in different type like Round, Ovel, Long Patta.",
+  applications: ["Banana wafers", "Round cutting", "Ovel cutting", "Long patta cutting"],
+  specifications: {
+    material: "",
+    voltage: "",
+    power: "",
+    capacity: "",
+    weight: "",
+    dimensions: "",
+    rpm: "",
+    motor: "",
+    productionCapacity: "",
+    warranty: ""
+  },
+  models: [
+    { model: "Regular", capacity: "250-300 Kg. per hour", hp: "1", rpm: "", voltage: "", weight: "45", dimensions: "36 x 13 x 24", production: "" },
+    { model: "Speed Controller", capacity: "300-350 Kg. per hour", hp: "1", rpm: "", voltage: "", weight: "55", dimensions: "43 x 15 x 34", production: "" }
+  ]
+},
+{
+  id: 50,
+  sku: "SA-050",
+  name: "Potato Wafer Machine",
+  slug: "potato-wafer-machine",
+  category: "Snack Making Machines",
+  subCategory: "Wafer Machine",
+  featured: false,
+  image: "/images/products/potato-wafer-machine.jpg",
+  gallery: [],
+  shortDescription: "Potato wafer machine.",
+  description: "It is used to make wafers from potato, its Cutting in different type like plane wafer, lining wafer, kadukas (khaman) cutting.",
+  applications: ["Potato wafers", "Plane wafer", "Lining wafer", "Kadukas cutting", "Khaman cutting"],
+  specifications: {
+    material: "",
+    voltage: "",
+    power: "",
+    capacity: "200-250 Kg. per hour",
+    weight: "50",
+    dimensions: "20 x 14 x 27",
+    rpm: "1440",
+    motor: "0.5 HP",
+    productionCapacity: "200-250 Kg. per hour",
+    warranty: ""
+  },
+  models: [
+    { model: "Potato Wafer Machine", capacity: "200-250 Kg. per hour", hp: "0.5 HP", rpm: "1440", voltage: "", weight: "50", dimensions: "20 x 14 x 27", production: "" }
+  ]
+},
+{
+  id: 51,
+  sku: "SA-051",
+  name: "Potato Peeler Machine",
+  slug: "potato-peeler-machine",
+  category: "Vegetable Processing Machines",
+  subCategory: "Peeler",
+  featured: false,
+  image: "/images/products/potato-peeler-machine.jpg",
+  gallery: [],
+  shortDescription: "Potato peeler machine.",
+  description: "Potato Peeler Machine uses to Remove upper layer of potato and also in papaya.",
+  applications: ["Potato peeling", "Papaya peeling"],
+  specifications: {
+    material: "",
+    voltage: "",
+    power: "",
+    capacity: "",
+    weight: "",
+    dimensions: "",
+    rpm: "1440",
+    motor: "",
+    productionCapacity: "",
+    warranty: ""
+  },
+  models: [
+    { model: "5 Kg.", capacity: "5 Kg.", hp: "0.5", rpm: "1440", voltage: "", weight: "31", dimensions: "27 x 14 x 19", production: "Average time 2-3" },
+    { model: "10 Kg.", capacity: "10 Kg.", hp: "0.5", rpm: "1440", voltage: "", weight: "45", dimensions: "28 x 16 x 32", production: "Average time 2-3" },
+    { model: "15 Kg.", capacity: "15 Kg.", hp: "1.0", rpm: "1440", voltage: "", weight: "70", dimensions: "30 x 18 x 36", production: "Average time 4-5" },
+    { model: "20 Kg.", capacity: "20 Kg.", hp: "1.5", rpm: "1440", voltage: "", weight: "72", dimensions: "31 x 19 x 39", production: "Average time 6-7" },
+    { model: "25 Kg.", capacity: "25 Kg.", hp: "1.5", rpm: "1440", voltage: "", weight: "78", dimensions: "33 x 20 x 43", production: "Average time 6-7" }
+  ]
+},
+{
+  id: 52,
+  sku: "SA-052",
+  name: "Finger Chips Machine",
+  slug: "finger-chips-machine",
+  category: "Snack Making Machines",
+  subCategory: "Chips Machine",
+  featured: false,
+  image: "/images/products/finger-chips-machine.jpg",
+  gallery: [],
+  shortDescription: "Finger chips machine.",
+  description: "",
+  applications: ["Finger chips"],
+  specifications: {
+    material: "",
+    voltage: "",
+    power: "",
+    capacity: "150-200Kg. per hour",
+    weight: "46",
+    dimensions: "25 x 13 x 20",
+    rpm: "1440",
+    motor: "0.5 HP",
+    productionCapacity: "150-200Kg. per hour",
+    warranty: ""
+  },
+  models: [
+    { model: "Finger Chips Machine", capacity: "150-200Kg. per hour", hp: "0.5 HP", rpm: "1440", voltage: "", weight: "46", dimensions: "25 x 13 x 20", production: "" }
+  ]
+},
+{
+  id: 53,
+  sku: "SA-053",
+  name: "Dryer Machine (Regular)",
+  slug: "dryer-machine-regular",
+  category: "Snack Making Machines",
+  subCategory: "Dryer Machine",
+  featured: false,
+  image: "/images/products/dryer-machine-regular.jpg",
+  gallery: [],
+  shortDescription: "Regular dryer machine.",
+  description: "Dryer Machine uses to Remove Extra oil & water (EX. Potato slice, Namakeen, Wet Dal etc.)",
+  applications: ["Potato slice", "Namakeen", "Wet dal", "Oil removal", "Water removal"],
+  specifications: {
+    material: "",
+    voltage: "",
+    power: "",
+    capacity: "10-15 Kg.",
+    weight: "75 Kg.",
+    dimensions: "31 x 25 x 46",
+    rpm: "",
+    motor: "1.0 HP",
+    productionCapacity: "",
+    warranty: ""
+  },
+  models: [
+    { model: "Dryer Machine (Regular)", capacity: "10-15 Kg.", hp: "1.0 HP", rpm: "", voltage: "", weight: "75 Kg.", dimensions: "31 x 25 x 46", production: "Bowl size 12 x 14" }
+  ]
+},
+{
+  id: 54,
+  sku: "SA-054",
+  name: "Dryer Machine (Tilting)",
+  slug: "dryer-machine-tilting",
+  category: "Snack Making Machines",
+  subCategory: "Dryer Machine",
+  featured: false,
+  image: "/images/products/dryer-machine-tilting.jpg",
+  gallery: [],
+  shortDescription: "Tilting dryer machine.",
+  description: "Dryer Machine uses to Remove Extra oil & water (EX. Potato slice, Namakeen, Wet Dal etc.)",
+  applications: ["Potato slice", "Namakeen", "Wet dal", "Oil removal", "Water removal"],
+  specifications: {
+    material: "",
+    voltage: "",
+    power: "",
+    capacity: "",
+    weight: "",
+    dimensions: "",
+    rpm: "",
+    motor: "",
+    productionCapacity: "",
+    warranty: ""
+  },
+  models: [
+    { model: "Tilting 12 x 14", capacity: "10-15 Kg.", hp: "1.0 HP", rpm: "", voltage: "", weight: "95", dimensions: "36 x 24 x 29", production: "Bowl size 12 x 14" },
+    { model: "Tilting 16.5 x 16.5", capacity: "25-30 Kg.", hp: "1.5 HP", rpm: "", voltage: "", weight: "107 Kg.", dimensions: "32 x 26 x 46", production: "Bowl size 16.5 x 16.5" }
+  ]
+},
+{
+  id: 55,
+  sku: "SA-055",
+  name: "Carrot (Fruit) Juice Machine",
+  slug: "carrot-fruit-juice-machine",
+  category: "Juice Machines",
+  subCategory: "Juice Machine",
+  featured: false,
+  image: "/images/products/carrot-fruit-juice-machine.jpg",
+  gallery: [],
+  shortDescription: "Carrot fruit juice machine.",
+  description: "It's used to extract juice from pineapple, Apple, grapes, carrots, pomegranate, Tomato, Carrots and Green Vegetable etc.",
+  applications: ["Pineapple", "Apple", "Grapes", "Carrots", "Pomegranate", "Tomato", "Green vegetable"],
+  specifications: {
+    material: "",
+    voltage: "",
+    power: "",
+    capacity: "",
+    weight: "",
+    dimensions: "",
+    rpm: "2880",
+    motor: "",
+    productionCapacity: "",
+    warranty: ""
+  },
+  models: [
+    { model: "SMALL", capacity: "2 GLASS at a time", hp: "", rpm: "2880", voltage: "", weight: "11", dimensions: "9 x 9 x 14", production: "Bowl size 0.25" },
+    { model: "ME DIUM", capacity: "4 GLASS at a time", hp: "", rpm: "2880", voltage: "", weight: "14", dimensions: "11 x 11 x 17", production: "Bowl size 0.5" },
+    { model: "BIG", capacity: "8 GLASS at a time", hp: "", rpm: "2880", voltage: "", weight: "20", dimensions: "12 x 12 x 19", production: "Bowl size 0.75" }
+  ]
+},
+{
+  id: 56,
+  sku: "SA-056",
+  name: "Orange Juice Machi ne",
+  slug: "orange-juice-machi-ne",
+  category: "Juice Machines",
+  subCategory: "Juice Machine",
+  featured: false,
+  image: "/images/products/orange-juice-machi-ne.jpg",
+  gallery: [],
+  shortDescription: "Orange juice machine.",
+  description: "It's used to extract juice from Oranges, Mosambi, Anar, Pineapple, Grapes, Sweet lemon and other fruits.",
+  applications: ["Oranges", "Mosambi", "Anar", "Pineapple", "Grapes", "Sweet lemon"],
+  specifications: {
+    material: "",
+    voltage: "",
+    power: "",
+    capacity: "25-30 KG",
+    weight: "28",
+    dimensions: "17 x 11 x 24",
+    rpm: "1440",
+    motor: "0.5 HP",
+    productionCapacity: "25-30 KG",
+    warranty: ""
+  },
+  models: [
+    { model: "Orange Juice Machi ne", capacity: "25-30 KG", hp: "0.5 HP", rpm: "1440", voltage: "", weight: "28", dimensions: "17 x 11 x 24", production: "" }
+  ]
+},
+{
+  id: 57,
+  sku: "SA-057",
+  name: "Papad Machine",
+  slug: "papad-machine",
+  category: "Food Processing Machines",
+  subCategory: "Papad Machine",
+  featured: false,
+  image: "/images/products/papad-machine.jpg",
+  gallery: [],
+  shortDescription: "Papad machine.",
+  description: "Full Steel Body. Maintenance Free. Easy to Operate.",
+  applications: ["Papad"],
+  specifications: {
+    material: "Full Steel Body",
+    voltage: "",
+    power: "",
+    capacity: "50-60 Kg. per day",
+    weight: "63",
+    dimensions: "27 x 18 x 30",
+    rpm: "1440",
+    motor: "0.5 HP",
+    productionCapacity: "50-60 Kg. per day",
+    warranty: ""
+  },
+  models: [
+    { model: "Papad Machine", capacity: "50-60 Kg. per day", hp: "0.5 HP", rpm: "1440", voltage: "", weight: "63", dimensions: "27 x 18 x 30", production: "Full steel body; maintenance free; easy to operate" }
+  ]
+},
+{
+  id: 58,
+  sku: "SA-058",
+  name: "Sugarcane Juice Machine Battery Operated",
+  slug: "sugarcane-juice-machine-battery-operated",
+  category: "Juice Machines",
+  subCategory: "Sugarcane Juice Machine",
+  featured: false,
+  image: "/images/products/sugarcane-juice-machine-battery-operated.jpg",
+  gallery: [],
+  shortDescription: "Battery operated sugarcane juice machine.",
+  description: "FUNCTION : Overload Tripping & Reverse Forward System Available. ROLLER & BODY : 4' (SS 304 with 3 Roller).",
+  applications: ["Sugarcane juice"],
+  specifications: {
+    material: "SS 304 with 3 Roller",
+    voltage: "Battery 12V12 AMP",
+    power: "",
+    capacity: "100 150 Ltr/hr.",
+    weight: "",
+    dimensions: "",
+    rpm: "",
+    motor: "2 HP Single Phase",
+    productionCapacity: "100 150 Ltr/hr.",
+    warranty: ""
+  },
+  models: [
+    { model: "Electric + Battery Opeated", capacity: "100 150 Ltr/hr.", hp: "2 HP Single Phase", rpm: "", voltage: "Battery 12V12 AMP", weight: "", dimensions: "", production: "Overload tripping and reverse forward system; roller and body 4' SS 304 with 3 roller" }
   ]
 }
 ]
