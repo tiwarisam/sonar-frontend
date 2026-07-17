@@ -3,6 +3,7 @@ const categories = [
   "Packaging Machines",
   "Filling Machines",
   "Dough & Bakery Machines",
+  "Flour Mill Machines",
   "Juice Machines",
   "Commercial Kitchen Equipment",
   "Food Processing Machines",
