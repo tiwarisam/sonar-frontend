@@ -15,7 +15,7 @@ export default function AboutCompany() {
             <div className="absolute -top-8 -left-8 w-40 h-40 bg-emerald-500/20 rounded-full blur-3xl"></div>
 
             <img
-              src="/images/about-company.jpg"
+              src="/images/banners/banner.jpeg"
               alt="Sonar Appliances"
               className="rounded-3xl shadow-2xl border border-slate-700 relative"
             />
