@@ -124,9 +124,9 @@ models: [
   category: "Food Processing Machines",
   subCategory: "Gravy Machine",
   featured: false,
-  image: "/images/products/vegeatble-machines/gravy-machine.jpeg",
+  image: "/images/products/vegetable-machines/gravy-machine.jpeg",
 
-gallery: ["/images/products/vegeatble-machines/gravy-machine.jpeg"],
+gallery: ["/images/products/vegetable-machines/gravy-machine.jpeg"],
 
 shortDescription: "Machine for gravy, pulp, juice and wet dal crushing.",
 
@@ -325,8 +325,8 @@ models: [
   category: "Oil Processing Machines",
   subCategory: "Oil Filter Machine",
   featured: false,
-  image: "/images/products/oil-machines/oil-filter-machine.jpg",
-  gallery: ["/images/products/oil-machines/oil-filter-machine.jpg"],
+  image: "/images/products/oil-machines/oil-filter-press-machine.jpg",
+  gallery: ["/images/products/oil-machines/oil-filter-press-machine.jpg"],
   shortDescription: "Oil filter machine.",
   description: "",
   applications: ["Oil filtering"],
@@ -478,8 +478,8 @@ models: [
   category: "Food Processing Machines",
   subCategory: "Grinding Machine",
   featured: false,
-  image: "/images/products/grinding/masala-grinder.jpg",
-  gallery: ["/images/products/grinding/masala-grinder.jpg"],
+  image: "/images/products/grinding/masala-grinding-machine.jpg",
+  gallery: ["/images/products/grinding/masala-grinding-machine.jpg"],
   shortDescription: "Masala grinder for dry spices.",
   description: "Can grind all dry spices like dry red chilly, pepper, herb, nut, wheat and rice.",
   applications: ["Dry red chilly", "Pepper", "Herb", "Nut", "Wheat", "Rice"],
